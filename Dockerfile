@@ -1,5 +1,5 @@
 # 1. Heredamos de la imagen oficial de n8n (puedes fijar una versión si prefieres, ej: n8n:1.27.0)
-FROM n8nio/n8n:latest
+FROM n8nio/n8n:stable
 
 # 2. Cambiamos a usuario root para tener permisos de instalación
 USER root
